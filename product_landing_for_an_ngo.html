@@ -1,0 +1,95 @@
+<style>
+	body{
+		width:auto;
+		background:#eee;
+		border:0px solid;
+		font-style:sans-serif;
+		displlay:flex;
+	}
+	header{
+		background:hsl(54,95%,67%);
+		min-width:100%;
+		height:150px;
+	}
+	main{
+		text-align:center;
+		flex-shrink:0;
+	}
+	#title-logo{
+		border:0px solid;
+		border-radius:15%;
+		display:flex;
+		flex-direction:row;
+		flex-shrink:0;
+	}
+	#title{
+		font-style:strong;
+		font-size:36;
+		padding:10px 200px 10px 200px;
+		flex-shrink:5;
+	}
+	#nav-bar{
+		display:block;
+		background:#bbb;
+	}
+	#header-img{
+		height:90%;
+		width:20%;
+		flex-shrink:1;
+	}
+	#about{
+		margin-top:100px;
+		margin-left:70px;
+		display:block;
+		background:#fff;
+		padding:30px;
+		border 0px solid;
+		border-radius:20px;
+		width:75%;
+	}
+	#video{
+		padding-bottom:50px;
+	}
+</style>
+<header id="header">
+	<div id="title-logo">
+		<img id="header-img" src="kyss.png" alt="Company Logo">
+		<h1 id="title"> Karmyog Sewa Sansthan </h1>
+	</div>
+	<nav id="nav-bar">
+		<ul>
+			<li><a class="nav-link" href="#about">About</a></li>
+			<li><a class="nav-link" href="#video">Video</a></li>
+			<li><a class="nav-link" href="#works">Our Works</a></li>
+			<li><a class="nav-link" href="#register">Register with Us</a></li>
+		</ul>
+	</nav>
+</header>
+<main>
+	<div id="about">
+			<p>हमें भगवान् मन्दिर मे नही दिखता है, खुदा मस्जिद मे नही मिलता है । ईश्वर, अल्लाह, वाहेगुरु, जीजस सभी का दर्शन --गरीब,मजलूम,शोषि और असहायो की सेवा करने पर उनके चेहरे की मुस्कान और उनकी दुआओ मे मिलता है । सेवा मे धर्म, जाति, व्यक्ति, लैंगिक भेद नही होता है ।निःश्वार्थ भाव से की गई सेवा, सत्य कर्म ही ईश्वर या अल्लाह (जिस भी नाम से पुकारते है )की भक्ति या इबादत है ।धर्म अनेक है, परन्तु **ईश्वर एक है**।धर्म की रचना इन्सान के द्वारा की गयी है ।परंतु इन्सान की रचना ईश्वर के द्वारा की गई है । ईश्वरीय कार्यो को करना ही इन्सान का कर्म हैं ।पूर्ण मनोयोग से निःश्वार्थ भाव से किये गये सामाजिक हित के कार्य या सत्य कर्म ही ईश्वर या अल्लाह की इबादत है । यही कर्मयोगहै|</p>
+		
+	</div>
+	<hr>
+	<div id="video">
+		<h2 id="video-title"> Karmyogi' Discourse </h2>
+	<iframe  width="560" height="315" src="https://www.youtube.com/embed/sLSJekmgR68" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<hr>
+	<div id="works">
+		<h2 id="works-title">Our Works</h2>
+			<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D307781349568906%26set%3Da.129768577370185.1073741830.100010111295573%26type%3D3&width=500" width="500" height="336" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+			<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D281594115520963%26set%3Da.110581349288908.1073741827.100010111295573%26type%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+			<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D281594115520963%26set%3Da.110581349288908.1073741827.100010111295573%26type%3D3&width=500" width="500" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+			<a href="https://www.facebook.com/kramyog.sansthan">see more...</a>
+	</div>
+	<hr>
+	<form id="register" action="https://www.freecodecamp.com/email-submit">
+		<h2 id="register-title">Register With Us </h2>
+		<label id="email-label" for="email">Email: 
+			<input id="email" type="email" placeholder="xyz@abc.com">
+		</label>
+		<label id="submit-label" for="submit">
+			<button type="submit" id="submit"> Submit </button>
+		</label>
+	</form>
+</main>
